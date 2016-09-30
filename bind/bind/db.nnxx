@@ -1,0 +1,15 @@
+;
+; BIND data file for TLD ".nnxx"
+;
+$TTL	604800
+@	IN	SOA	nnxx. root.nnxx. (
+			      2		; Serial
+			 604800		; Refresh
+			  86400		; Retry
+			2419200		; Expire
+			 604800 )	; Negative Cache TTL
+;
+@	IN	NS	ns.nnxx.
+@	IN	A	10.27.0.5
+@	IN	AAAA	::1
+ns	IN	A	10.27.0.5
